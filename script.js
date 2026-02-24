@@ -64,7 +64,7 @@ function filterJobs(filter) {
   });
   document
     .getElementById(`btn-${filter}`)
-    .classList.add("bg-blue-600", "text-white");
+    .classList.add("bg-blue-500", "text-white");
 
   let visibleCount = 0;
   cards.forEach((card) => {
